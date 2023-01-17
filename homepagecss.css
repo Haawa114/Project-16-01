@@ -1,0 +1,63 @@
+h1 {
+    color:white;
+    background-color: blue;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 50px;
+    font-family:Serif;
+    font-size:34px
+
+
+}
+
+
+article{
+    margin: auto;
+    border: 15px solid black;
+    padding: 20px;
+    display: flex;
+    max-width: 750px;
+}
+
+.flex-container {
+    background-color:white;
+    display:flex;
+    border-radius: 50px;
+
+    justify-content: center;
+
+  }
+  
+
+  
+  .flex-container > div {
+    background-color: lightblue;
+    margin:30px;
+    padding: 25px;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    border-radius: 50px;
+
+    
+}
+
+
+body {
+    background-color:lightblue;
+    color:black;
+    font-family:Arial;
+    font-size:22px;
+    font-style: italic;
+}
+
+
+.logo1 {
+    float:left
+}
+
+.logo2 {
+    float:right
+}
+
